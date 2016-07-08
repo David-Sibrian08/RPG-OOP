@@ -68,13 +68,13 @@
 				5C06EA2E1D2DB42700CBD365 /* ViewController.swift */,
 				5C06EA3E1D2DB7FA00CBD365 /* Character.swift */,
 				5C06EA401D2DBF7800CBD365 /* Player.swift */,
+				5C06EA421D2DD16700CBD365 /* Enemy.swift */,
+				5CD455411D2EACFF008FD94E /* Kimara.swift */,
+				5CD455431D2EB02E008FD94E /* DevilWizard.swift */,
 				5C06EA301D2DB42700CBD365 /* Main.storyboard */,
 				5C06EA331D2DB42700CBD365 /* Assets.xcassets */,
 				5C06EA351D2DB42800CBD365 /* LaunchScreen.storyboard */,
 				5C06EA381D2DB42800CBD365 /* Info.plist */,
-				5C06EA421D2DD16700CBD365 /* Enemy.swift */,
-				5CD455411D2EACFF008FD94E /* Kimara.swift */,
-				5CD455431D2EB02E008FD94E /* DevilWizard.swift */,
 			);
 			path = "RPG OOP";
 			sourceTree = "<group>";

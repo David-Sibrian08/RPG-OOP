@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var chestButton: UIButton!
     
+    @IBOutlet weak var attackButton: UIButton!
+    
     //player and enemy will exist 100%. Its properties wont be accessed otherwise
     var player: Player!
     var enemy: Enemy!
@@ -43,6 +45,8 @@ class ViewController: UIViewController {
     }
     
     func generateEnemy() {
+        attackButton.enabled = true
+        
         let rand = Int(arc4random_uniform(2))
         
         if rand == 0 {
@@ -58,6 +62,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func chestButtonTapped(sender: UIButton) {
+        attackButton.enabled = false
+        
         chestButton.hidden = true
         
         printLabel.text = chestContentMessage

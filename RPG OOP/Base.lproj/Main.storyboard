@@ -129,6 +129,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="attackButton" destination="RgV-x9-HeP" id="nJN-23-0eC"/>
                         <outlet property="chestButton" destination="umj-yg-kAY" id="OpC-3e-zcP"/>
                         <outlet property="enemyHpLabel" destination="Vzi-sR-OBb" id="qjQ-MX-gbO"/>
                         <outlet property="enemyImage" destination="R9w-Ws-p71" id="4Z0-1P-D8g"/>
